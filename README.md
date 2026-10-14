@@ -2,7 +2,10 @@
 
 一个单文件的番茄工作法计时器。**零依赖、零构建、可离线运行**——双击 `index.html` 即可使用。
 
-[![单文件](https://img.shields.io/badge/单文件-64KB-blue)]() [![依赖](https://img.shields.io/badge/依赖-0-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)]()
+**🔗 在线体验：<https://chijiachen2006.github.io/pomodoro-timer/>**
+
+[![Deploy](https://img.shields.io/badge/GitHub%20Pages-在线访问-success)](https://chijiachen2006.github.io/pomodoro-timer/)
+[![单文件](https://img.shields.io/badge/单文件-64KB-blue)]() [![依赖](https://img.shields.io/badge/依赖-0-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 <p align="center">
   <img src="assets/preview-dark.png" width="270" alt="主界面">
@@ -39,15 +42,23 @@
 
 ## 使用
 
+**方式一：在线直接用**
+
+👉 <https://chijiachen2006.github.io/pomodoro-timer/>
+
+**方式二：本地运行**
+
 ```bash
-git clone https://github.com/<你的用户名>/pomodoro-timer.git
+git clone https://github.com/chijiachen2006/pomodoro-timer.git
 cd pomodoro-timer
-# 直接用浏览器打开
+
+# 直接用浏览器打开，无需安装任何依赖
 start index.html      # Windows
-open index.html       # macOS
+open  index.html      # macOS
+xdg-open index.html   # Linux
 ```
 
-或直接在线访问（GitHub Pages）：`https://<你的用户名>.github.io/pomodoro-timer/`
+也可以把 `index.html` 单独下载到本地，双击即用，离线也能跑。
 
 ## 技术说明
 
